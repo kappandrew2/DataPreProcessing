@@ -1,0 +1,6 @@
+from sklearn.ensemble import RandomForestRegressor
+regressor = RandomForestRegressor(n_estimators = 30, random_state = 0)
+regressor.fit(X, y)
+
+pred_val = [[6.5]]
+regressor.predict(pred_val)

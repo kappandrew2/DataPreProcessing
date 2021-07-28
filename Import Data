@@ -1,0 +1,5 @@
+#get data from https://drive.google.com/drive/folders/1OFNnrHRZPZ3unWdErjLHod8Ibv2FfG1d
+
+dataset = pd.read_csv('/content/drive/MyDrive/Colab Notebooks/Position_Salaries.csv')
+
+print(dataset)

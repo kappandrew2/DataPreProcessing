@@ -1,0 +1,11 @@
+#Train model
+from sklearn.svm import SVR
+regressor = SVR(kernel = 'rbf')
+regressor.fit(X, y)
+
+#Predict values
+pred_value = [[6.5]]
+pred_scale = scX.transform(pred_value)
+pred_value_scaled = regressor.predict(pred_scale)
+answer_value = scy.inverse_transform(pred_value_scaled)
+print(answer_value)

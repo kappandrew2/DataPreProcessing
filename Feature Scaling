@@ -1,0 +1,5 @@
+from sklearn.preprocessing import StandardScaler
+scy = StandardScaler()
+y = scy.fit_transform(y)
+scX = StandardScaler()
+X = scX.fit_transform(X)
